@@ -1,7 +1,9 @@
 require_relative 'boot'
 
 require 'rails/all'
-config.action_mailer.preview_path = "#{Rails.root}/lib/mailer_previews"
+#config.action_mailer.preview_path = "#{Rails.root}/lib/mailer_previews"
+#config.action_mailer.perform_caching = true
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
